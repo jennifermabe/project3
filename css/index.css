@@ -144,7 +144,7 @@ body {
 }
 .bees-header-btn {
     background-color: #EDD692;
-    border-radius: 10px;
+    border-radius: 4px;
     padding: 10px 20px;
     color: #000000;
     font-family: 'Nunito Sans', sans-serif;
@@ -155,7 +155,7 @@ body {
 }
 .bees-header-btn:hover {
     background-color: #225508;
-    border-radius: 10px;
+    border-radius: 4px;
     padding: 10px 20px;
     color: #ffffff;
     font-family: 'Nunito Sans', sans-serif;
@@ -575,5 +575,5 @@ footer {
 }
 
 @media only screen and (max-width: 400px) {
-    
+
 }
