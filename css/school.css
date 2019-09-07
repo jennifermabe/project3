@@ -1,0 +1,377 @@
+
+body {
+    background-color: #FCFBE0;
+}
+
+/* Navigation */
+.bees-navbar {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    background-color: #FEED99 !important;
+    padding: 10px 50px;
+}
+.bees-logo {
+    max-width: 200px;
+}
+.bees-nav-ul {
+  margin-left: auto;
+  margin-right: 0 !important;
+}
+.bees-nav-link {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #000000 !important;
+    border-bottom: 3px solid rgba(0,0,0,0);
+}
+.bees-nav-link:hover {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #000000 !important;
+    border-bottom: 3px solid #D7792E;
+}
+.bees-dropdown {
+    background-color: #FCFAF4 !important;
+}
+
+li.nav-item {
+    padding: 0 10px;
+}
+
+/* FOOTER */
+
+footer {
+    position: relative;
+    background-color: #FEED99;
+    padding: 10px;
+  }
+  .bees-logo {
+    max-width: 200px;
+  }
+  .bees-row {
+    display: flex;
+    height: 100%;
+    align-items: center;
+  }
+  .bees-footer-info {
+    font-family: 'Nunito Sans', sans-serif;
+    padding-top: 10px;
+    text-align: center;
+  }
+  .bees-footer-info-inner {
+    display: inline-block;
+    text-align: left;
+  }
+  .bees-footer-info a {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #000000;
+  }
+  .bees-footer-info a:hover {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #000000;
+    text-decoration: underline #000000 solid;
+  }
+  .bees-footer-sm {
+    text-align: right;
+  }
+  .bees-sm {
+    display: inline-block;
+  }
+  .bees-sm a:hover {
+    text-decoration: none !important;
+  }
+  .bees-sm-link {
+    width: 50px;
+  }
+  
+  
+  @media only screen and (max-width: 768px) {
+    .bees-footer-sm {
+        text-align: center;
+    }
+    .bees-footer-logo{
+        text-align: center;
+    }
+    .bees-footer-info-inner {
+        display: inline-block;
+        text-align: center;
+    }
+  }
+
+
+/* hero navigation */
+
+#heroschool {
+    background: url(../photobees/volu.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#blockprogram {
+    padding: 25px 20px;
+    background-color: #FEED99;
+    width: 45%;
+    margin-top: -320px;
+    margin-left: 650px;
+    border-radius: 15px 50px 30px 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#school {
+    font-size: 22px;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    color: #225508;
+    font-weight: bold;
+}
+
+#program-text {
+    font-size: 16px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+#join {
+    margin-left: 85px;
+    padding-top: 100px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+
+.clearfix {
+    overflow: auto;
+    padding: 0 140px;
+    padding-top: 120px;
+  }
+  
+  #plants-image {
+    float: right;
+    width: 30%;
+    padding: 20px auto;
+    /* padding-left: 80px; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 40px;
+  }
+
+  #schoolpr-text {
+      font-size: 22px;
+      padding-top: 20px;
+  }
+
+
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #FCFBE0;
+    margin: 40px 40px;
+  }
+  
+  .flex-container > div {
+    background-color: #FEED99;
+    width: 30%;
+    margin: 10px auto;
+    line-height: 25px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 5px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 6px;
+  }
+
+
+
+
+  .class_title {
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 20px;
+    background-color: #FEED99;
+    color: black;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 42px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .button1 {
+    background-color: #4CAF50; 
+    color: white; 
+    border: 2px solid #4CAF50;
+    margin: 0 auto;
+    display: block;
+  }
+  
+  .button1:hover {
+    background-color: white;
+    color: #4CAF50;
+  }
+
+#pricing {
+    background: url(../photobees/greenplanet.jpg);
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 55px;
+}
+
+#price-text {
+    background: #FDFFFA;
+    width: 40%;
+    float: left;
+    margin: 60px 40px;
+    padding: 30px 30px;
+    border-radius: 8px;
+    margin-left: 600px;
+    vertical-align: center;
+    border-left: 16px solid #FEED99;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#price-title {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+
+.flex-involved {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #FCFBE0;
+    margin: 40px 40px;
+  }
+  
+  .flex-involved > div {
+    background-color: #225508;
+    width: 20%;
+    margin: 10px auto;
+    line-height: 25px;
+    /* border: solid 1px whitesmoke;
+    box-shadow: 0 4px 4px 0 #dee2e68c, 0 4px 10px 0 rgba(0, 0, 0, 0.05); */
+    border-radius: 6px;
+  }
+
+  .invo_title {
+    font-size: 16px;
+    text-align: center;
+    padding: 5px 5px;
+    margin-top: 7px;
+    background-color: #225508;
+    color: #FEED99;
+}
+
+
+
+
+
+
+/* MEDIA QUERY */
+
+@media only screen and ( max-width: 40em ) {
+/* .class_title {
+    font-size: 15px;
+    padding:10px 5px;
+} */
+
+img#logo {
+    margin-right: 10px !important;
+    margin-left: 5px;
+}
+.flex-container > div {
+    width: 100%;
+    margin: 10px 10px;
+    line-height: 25px;
+}
+
+.flex-involved > div {
+    width: 80%;
+    margin: 10px auto;
+    line-height: 20px;
+}
+}
+
+
+a.beinvolved {
+    color: #FEED99;
+    text-decoration: none;
+}
+
+a.beinvolved:hover {
+    color: white;
+}
+
+.flex-container > div:hover {
+    background-color: #4CAF50;
+}
+
+
+  /* MEDIA QUERY */
+/* 
+////////////////////////// */
+@media screen and (max-width: 1000px) and (min-width: 200px) {
+
+    .flex-container > div {
+      width: 100%;
+      margin: 10px 10px;
+      line-height: 25px;
+  }
+  
+  .flex-involved > div {
+      width: 80%;
+      margin: 10px auto;
+      line-height: 20px;
+  }
+  #blockprogram {
+    padding: 15px 10px;
+    width: 90%;
+    margin-top: -320px;
+    margin-left: 20px;
+}
+#plants-image {
+    width: 100%;
+    padding-left: 2px;
+    margin-bottom: 30px;
+}
+.clearfix {
+    padding: 10px 20px;
+    padding-top: 100px;
+}
+
+
+#join {
+    padding-top: 20px;
+}
+
+div#register {
+    margin: 0 135px;
+}
+
+#pricing {
+    height: 68vh;
+    margin-top: 50px;
+    width:100%;
+}
+
+#price-text {
+    width: 80%;
+    margin: 20px 20px;
+    padding: 30px 30px;
+    margin-left: 50px;
+}
+
+}

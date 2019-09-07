@@ -1,0 +1,150 @@
+#parallax-container {
+  display: block;
+  height: 750px; 
+}
+
+#content {
+  position: relative;
+  font-size: 30px;
+  background-color: beige;
+  margin: 100px 300px;
+  padding: 30px 30px;
+}
+
+#parallax-container div#back {
+  position: fixed;
+  top: 0;
+  background-position: center !important;
+  transform: translateY(0px);
+  height: 750px; 
+  width: 100%;
+  margin-top: 80px;
+}
+
+#parallax-container div#tree {
+  position: fixed;
+  top: 0;
+  background-position: right !important;
+  transform: translateY(0px);
+  height: 750px; 
+  width: 100%;
+  /* margin-top: 96px; */
+  background-repeat: no-repeat !important;
+}
+
+#parallax-container div#bee {
+  position: fixed;
+  top: 0;
+  background-position: left !important;
+  transform: translateY(0px);
+  height: 750px; 
+  width: 100%;
+  margin-top: 96px;
+  padding-top: 400px;
+  margin-left: 350px;
+  background-repeat: no-repeat !important;
+}
+
+#parallax-container div#bee2 {
+  position: fixed;
+  top: -100px;
+  left: 500px;
+  background-position: left !important;
+  transform: translateY(0px);
+  height: 750px; 
+  width: 100%;
+  /* margin-top: 96px; */
+  /* padding-top: 400px; */
+  background-repeat: no-repeat !important;
+}
+
+#parallax-container div#bee3 {
+  position: fixed;
+  top: 150px;
+  left: 300px;
+  background-position: left !important;
+  transform: translateY(0px);
+  height: 750px; 
+  width: 100%;
+  /* margin-top: 96px; */
+  /* padding-top: 400px; */
+  background-repeat: no-repeat !important;
+}
+
+#parallax-container div#bee4 {
+  position: fixed;
+  top: 0;
+  left: 100px;
+  background-position: left !important;
+  transform: translateY(0px);
+  height: 750px; 
+  width: 100%;
+  /* margin-top: 96px; */
+  /* padding-top: 400px; */
+  background-repeat: no-repeat !important;
+}
+
+#parallax-container div#bee5 {
+  position: fixed;
+  top: -200px;;
+  left: 400px;
+  background-position: left !important;
+  transform: translateY(0px);
+  height: 750px; 
+  width: 100%;
+  /* margin-top: 96px; */
+  /* padding-top: 400px; */
+  background-repeat: no-repeat !important;
+}
+
+#content2 {
+  position: relative;
+  font-size: 30px;
+  background-color: beige;
+  padding: 30px 30px;
+}
+
+/* nav {
+  background: rgb(252, 248, 160) !important;
+  padding: 10px 20px !important;
+} */
+
+/* Navigation */
+.bees-navbar {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  background-color: #FEED99 !important;
+  padding: 10px 50px;
+}
+.bees-logo {
+  max-width: 200px;
+}
+.bees-nav-ul {
+margin-left: auto;
+margin-right: 0 !important;
+}
+.bees-nav-link {
+  font-family: 'Nunito Sans', sans-serif;
+  color: #000000 !important;
+  border-bottom: 3px solid rgba(0,0,0,0);
+}
+.bees-nav-link:hover {
+  font-family: 'Nunito Sans', sans-serif;
+  color: #000000 !important;
+  border-bottom: 3px solid #D7792E;
+}
+.bees-dropdown {
+  background-color: #FCFAF4 !important;
+}
+
+li.nav-item {
+  padding: 0 10px;
+}
+/* FOOTER */
+
+footer {
+  position: relative;
+  background-color: #FEED99;
+  padding: 10px;
+}

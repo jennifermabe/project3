@@ -1,0 +1,465 @@
+
+body {
+    background-color: #FCFBE0;
+}
+
+/* Navigation */
+.bees-navbar {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    background-color: #FEED99 !important;
+    padding: 10px 50px;
+}
+.bees-logo {
+    max-width: 200px;
+}
+.bees-nav-ul {
+  margin-left: auto;
+  margin-right: 0 !important;
+}
+.bees-nav-link {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #000000 !important;
+    border-bottom: 3px solid rgba(0,0,0,0);
+}
+.bees-nav-link:hover {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #000000 !important;
+    border-bottom: 3px solid #D7792E;
+}
+.bees-dropdown {
+    background-color: #FCFAF4 !important;
+}
+
+li.nav-item {
+    padding: 0 10px;
+}
+
+/* FOOTER */
+
+footer {
+  position: relative;
+  background-color: #FEED99;
+  padding: 10px;
+}
+.bees-logo {
+  max-width: 200px;
+}
+.bees-row {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+.bees-footer-info {
+  font-family: 'Nunito Sans', sans-serif;
+  padding-top: 10px;
+  text-align: center;
+}
+.bees-footer-info-inner {
+  display: inline-block;
+  text-align: left;
+}
+.bees-footer-info a {
+  font-family: 'Nunito Sans', sans-serif;
+  color: #000000;
+}
+.bees-footer-info a:hover {
+  font-family: 'Nunito Sans', sans-serif;
+  color: #000000;
+  text-decoration: underline #000000 solid;
+}
+.bees-footer-sm {
+  text-align: right;
+}
+.bees-sm {
+  display: inline-block;
+}
+.bees-sm a:hover {
+  text-decoration: none !important;
+}
+.bees-sm-link {
+  width: 50px;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .bees-footer-sm {
+      text-align: center;
+  }
+  .bees-footer-logo{
+      text-align: center;
+  }
+  .bees-footer-info-inner {
+      display: inline-block;
+      text-align: center;
+  }
+}
+
+
+/* hero navigation */
+
+#herovolunteer {
+    background: url(../photobees/volunteer.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#join {
+    /* margin-left: 85px; */
+    padding-top: 140px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #FEED99;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+#left {
+    float: left;
+    width: 45%;
+}
+
+#volunteer-text {
+    font-size: 15px;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-left: 100px;
+    margin-top: 40px;
+    color: white;
+}
+
+#incentive-text {
+    font-size: 15px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+#ince {
+    /* padding-top: 50px; */
+    font-size: 20px;
+    font-weight: bold;
+    /* text-align: center; */
+    font-family: 'Nunito Sans', sans-serif;;
+    padding: 10px auto;
+}
+
+#right {
+    background-color: rgba(254, 237, 153, 0.479);
+    padding: 10px 10px;
+    float: right;
+    width: 45%;
+    margin-top: 80px;
+    /* margin-right: 120px; */
+    padding: 40px 40px;
+    border-radius: 20px 0 0 20px;
+}
+
+
+div#volunteer-button {
+    margin: 0 450px;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-top: 60px;
+    width:50%;
+  }
+  
+  .button1 {
+    background-color: #FEED99; 
+    color: #225508; 
+    border: 2px solid #FEED99;
+    border-radius: 10px;
+  }
+  
+  .button1:hover {
+    background-color: white;
+    color: #225508;
+  }
+
+
+
+/* /////////////////////////
+  /* FORM */
+/* ///////////////////////// */
+
+/* * {
+  box-sizing: border-box;
+} */
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  font-size: 14px;
+}
+
+.row {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+label {
+  padding: 8px 8px 8px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.containerform {
+  border-radius: 5px;
+  /* background-color: #f2f2f2; */
+  padding: 20px;
+  margin: 30px auto;
+  width: 70%;
+}
+
+.col-25 {
+  /* float: left; */
+  width: 15%;
+  margin-top: 6px;
+  color: white;
+  text-align: left;
+}
+
+.col-75 {
+  /* float: left; */
+  width: 50%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+
+
+div#submit-button {
+  margin: 0 auto;
+  width: 38%;
+}
+
+.subbutton {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 6px 178px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+
+  .button-b {
+    background-color: #4CAF50; 
+    color: white; 
+    border: 2px solid #4CAF50;
+    border-radius: 5px;
+  }
+  
+  .button-b:hover {
+    background-color: white;
+    color: #225508;
+  }
+
+/* LINKS */
+
+
+  #joinus {
+    /* margin-left: 85px; */
+    margin-top: 300px;
+    padding-top: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #FEED99;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+a#bee-link {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+#joinus2 {
+    /* margin-left: 85px; */
+    margin-top: 30px;
+    margin-left: 94px;
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+
+/* Get involved section */
+
+
+.flex-involved {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #FCFBE0;
+    margin: 40px 40px;
+  }
+  
+  .flex-involved > div {
+    background-color: #225508;
+    width: 20%;
+    margin: 10px auto;
+    line-height: 25px;
+    /* border: solid 1px whitesmoke;
+    box-shadow: 0 4px 4px 0 #dee2e68c, 0 4px 10px 0 rgba(0, 0, 0, 0.05); */
+    border-radius: 6px;
+  }
+
+  .invo_title {
+    font-size: 16px;
+    text-align: center;
+    padding: 5px 5px;
+    margin-top: 7px;
+    background-color: #225508;
+    color: #FEED99;
+}
+
+#joinme {
+    margin-left: 85px;
+    padding-top: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+a.beinvolved {
+    color: #FEED99;
+    text-decoration: none;
+}
+
+a.beinvolved:hover {
+    color: white;
+}
+
+
+
+
+  /* MEDIA QUERY */
+/* 
+////////////////////////// */
+@media screen and (max-width: 1000px) and (min-width: 200px) {
+
+    .flex-container > div {
+      width: 100%;
+      margin: 10px 10px;
+      line-height: 25px;
+  }
+  
+  .flex-involved > div {
+      width: 80%;
+      margin: 10px auto;
+      line-height: 20px;
+  }
+  
+  .invo_title {
+      font-size: 12px;
+  }
+  
+  img#logo {
+      margin-right: 10px !important;
+      margin-left: 5px;
+  }
+
+  #herovolunteer {
+    background: url(../photobees/volunteer.jpg);
+    width: 100%;
+    height: 320vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#volunteer-text {
+    margin-left: 20px;
+
+}
+#joinus {
+    margin-top: 550px;
+}
+
+#right {
+    padding: 20px 20px;
+}
+
+div#submit-button {
+  margin: 20px 65px;
+}
+.subbutton {
+    padding: 6px 106px;
+}
+
+#joinus2 {
+    margin-left: -30px;
+}
+
+
+
+}
+
+
+.btn-primary {
+  color: #fff;
+  background-color: green;
+  border-color: green;
+  border: 3px solid transparent;
+  width: 130%;
+}
+
+.btn-primary:hover {
+  color: green;
+  background-color: white;
+  border: 3px solid green;
+  width: 130%;
+}

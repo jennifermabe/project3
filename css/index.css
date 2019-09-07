@@ -395,7 +395,7 @@ body {
     margin-top: 10px;
     display: inline-block;
 }
-.bees-events{
+.bees-events {
     margin-top: 100px;
 }
 .bees-carousel-caption {
@@ -407,6 +407,9 @@ body {
     display: flex !important;
     align-items: center;
     height: 100%;
+}
+.bees-events-mobile {
+    display: none;
 }
 #contact-img {
     width: 90%;
@@ -544,6 +547,34 @@ footer {
         font-size: 18px;
         text-align: center;
     }
+    .bees-donate-content h4:hover {
+        display: inline-block;
+        color: #000000;
+        font-family: 'Nunito Sans', sans-serif;
+        background-color: #EDD692;
+        border: 1px solid #EDD692;
+        padding: 5px 10px;
+        margin: 0 10px;
+        border-radius: 4px;
+        cursor: pointer;
+        text-transform: uppercase;
+        font-weight: 300;
+        text-align: center;
+    }
+    .bees-donate-btn.active {
+        display: inline-block;
+        color: #000000;
+        font-family: 'Nunito Sans', sans-serif;
+        background-color: #EDD692;
+        border: 1px solid #EDD692;
+        padding: 5px 10px;
+        margin: 0 10px;
+        border-radius: 4px;
+        cursor: pointer;
+        text-transform: uppercase;
+        font-weight: 300;
+        text-align: center;
+    }
 }
 @media only screen and (max-width: 768px) {
     #Membership {
@@ -579,6 +610,65 @@ footer {
     }
 }
 
-@media only screen and (max-width: 400px) {
-
+@media only screen and (max-width: 500px) {
+    .bees-donate-content h4 {
+        display: inline-block;
+        color: #ffffff;
+        font-family: 'Nunito Sans', sans-serif;
+        background-color: #467030;
+        border: 1px solid #ffffff;
+        padding: 5px 10px;
+        margin: 0 5px;
+        border-radius: 4px;
+        cursor: pointer;
+        text-transform: uppercase;
+        font-weight: 300;
+        font-size: 18px;
+        text-align: center;
+    }
+    .bees-donate-content h4:hover {
+        display: inline-block;
+        color: #000000;
+        font-family: 'Nunito Sans', sans-serif;
+        background-color: #EDD692;
+        border: 1px solid #EDD692;
+        padding: 5px 10px;
+        margin: 0 5px;
+        border-radius: 4px;
+        cursor: pointer;
+        text-transform: uppercase;
+        font-weight: 300;
+        text-align: center;
+    }
+    .bees-donate-btn.active {
+        display: inline-block;
+        color: #000000;
+        font-family: 'Nunito Sans', sans-serif;
+        background-color: #EDD692;
+        border: 1px solid #EDD692;
+        padding: 5px 10px;
+        margin: 0 5px;
+        border-radius: 4px;
+        cursor: pointer;
+        text-transform: uppercase;
+        font-weight: 300;
+        text-align: center;
+    }
+    .bees-events-mobile {
+        display: block;
+        margin-top: 100px;
+    }
+    .bees-events {
+        display: none;
+    }
+    .bees-carousel-caption {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 20%;
+        z-index: 10;
+        display: flex !important;
+        align-items: center;
+        height: 100%;
+    }
 }
