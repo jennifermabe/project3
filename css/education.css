@@ -58,7 +58,7 @@ footer {
 
 #block {
     padding: 25px 20px;
-    background-color: #FEED99;
+    background-color: #ECD596;
     width: 45%;
     margin-top: -270px;
     margin-left: 110px;
@@ -67,11 +67,12 @@ footer {
 }
 
 #whyschool {
-    font-size: 22px;
+    font-size: 28px;
+    font-weight: bold;
     font-family: 'Nunito Sans', sans-serif;
     margin-bottom: 20px;
     margin-top: 10px;
-    color: #225508;
+    /* color: #225508; */
     font-weight: bold;
 }
 
@@ -83,7 +84,7 @@ footer {
 #join {
     margin-left: 85px;
     padding-top: 50px;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: bold;
     font-family: 'Nunito Sans', sans-serif;
 }

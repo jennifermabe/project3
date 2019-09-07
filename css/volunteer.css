@@ -109,7 +109,7 @@ footer {
 #join {
     /* margin-left: 85px; */
     padding-top: 140px;
-    font-size: 20px;
+    font-size: 28px;
     font-weight: bold;
     text-align: center;
     color: #FEED99;
@@ -122,7 +122,7 @@ footer {
 }
 
 #volunteer-text {
-    font-size: 15px;
+    font-size: 18px;
     font-family: 'Nunito Sans', sans-serif;
     margin-left: 100px;
     margin-top: 40px;
@@ -130,7 +130,7 @@ footer {
 }
 
 #incentive-text {
-    font-size: 15px;
+    font-size: 18px;
     font-family: 'Nunito Sans', sans-serif;
 }
 
@@ -189,7 +189,9 @@ div#volunteer-button {
     color: #225508;
   }
 
-
+  .col-25 {
+    font-family: 'Nunito Sans', sans-serif;
+}
 
 /* /////////////////////////
   /* FORM */
@@ -312,7 +314,7 @@ div#submit-button {
   #joinus {
     /* margin-left: 85px; */
     margin-top: 300px;
-    padding-top: 50px;
+    padding-top: 130px;
     font-size: 20px;
     font-weight: bold;
     text-align: center;
@@ -370,7 +372,7 @@ a#bee-link {
 #joinme {
     margin-left: 85px;
     padding-top: 50px;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: bold;
     font-family: 'Nunito Sans', sans-serif;
 }
@@ -423,10 +425,13 @@ a.beinvolved:hover {
 
 #volunteer-text {
     margin-left: 20px;
+      font-size: 15px;
+  }
 
-}
+
 #joinus {
     margin-top: 550px;
+    padding-top: 50px;
 }
 
 #right {
@@ -444,7 +449,9 @@ div#submit-button {
     margin-left: -30px;
 }
 
-
+#incentive-text {
+  font-size: 15px;
+}
 
 }
 
